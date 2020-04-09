@@ -1,0 +1,47 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* End Reset Rules */
+
+
+/* General Layout */
+.product {
+  margin-top: 5px;
+  position: relative;
+  display: inline-block;
+}
+/* End General Layout */
+
+/* Discount Row Style*/
+.discount {
+  background: green;
+}
+.red {
+  background: red;
+}
+.discount, .red {
+  width: 40px;
+  height: 20px;
+  text-align: center;
+  position: absolute;
+  left: 260px;
+}
+/* End Discount Row Style*/
+
+/* Heart Row Style*/
+.heart {
+  display: none;
+  width: 300px;
+  color: red;
+  position: absolute;
+  bottom: 15px;
+  text-align: center;
+}
+
+.product:hover .heart{
+  display: inline-block;
+}
+/* End Heart Row Style*/
